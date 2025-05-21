@@ -106,7 +106,24 @@ create policy "Individuals can update their own todos." on todos for
 
 create policy "Individuals can delete their own todos." on todos for
     delete using ((select auth.uid()) = user_id);
+
+
 ```
+screenshots--
+![Screenshot 2025-05-21 235549](https://github.com/user-attachments/assets/f8e23783-5edf-421a-9c16-4f4f9e924d8d)
+
+![Screenshot 2025-05-21 232845](https://github.com/user-attachments/assets/428461c9-cbba-4c8d-98a3-6882f8722301)
+
+![Screenshot 2025-05-21 232919](https://github.com/user-attachments/assets/05a1ffff-dc0e-425e-98df-d30ace71ae2e)
+
+![Screenshot 2025-05-21 232942](https://github.com/user-attachments/assets/af837ef7-2db4-4704-a64b-db90769deaea)
+
+![Screenshot 2025-05-21 233003](https://github.com/user-attachments/assets/e7833f84-cd0c-41dd-847f-9664b3bd4202)
+
+![Screenshot 2025-05-21 233019](https://github.com/user-attachments/assets/816c7325-833f-4932-99ec-102263d7ab95)
+
+
+
 
 ## Authors
 
